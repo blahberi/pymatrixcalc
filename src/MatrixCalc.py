@@ -1,7 +1,7 @@
 import numpy as np
 
 
-def CutArray(arr, pos):
+def __cut_array(arr, pos):
     cutArray = np.array(arr)
     cutArray = np.delete(cutArray, pos[0], 1)
     cutArray = np.delete(cutArray, pos[1], 0)
@@ -40,7 +40,7 @@ def find_adjoint(arr):
     modifiedArray = np.array(arr)
     for x in range(len(arr)):
         for y in range(len(arr[x])):
-            modifiedArray[x, y] = calc_det(CutArray(arr, [y, x]))
+            modifiedArray[x, y] = calc_det(__cut_array(arr, [y, x]))
 
     for x in range(len(arr)):
         for y in range(len(arr[x])):
