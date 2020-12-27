@@ -1,7 +1,0 @@
-setup.py
-pymatrixcalc/MatrixCalc.py
-pymatrixcalc/__init__.py
-pymatrixcalc.egg-info/PKG-INFO
-pymatrixcalc.egg-info/SOURCES.txt
-pymatrixcalc.egg-info/dependency_links.txt
-pymatrixcalc.egg-info/top_level.txt
