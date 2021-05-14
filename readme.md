@@ -1,11 +1,11 @@
 pymatrixcalc allows you to operate on a matrix with python functions.
 
 to download package use:
-`pip install pymatrixcalc`
+`pip install pymatrixcalculator`
 
 and then you can import pymatrixcalc to your python script like this:
 
-`from pymatrixcalc import MatrixCalc.py`
+`from pymatrixcalc import MatrixCalc`
 
 then u can use the following functions
 
